@@ -11,7 +11,7 @@ namespace TipCalcutator.Core
     {
         public override void Initialize()
         {
-            CreatableTypes()
+            CreatableTypes()   
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
